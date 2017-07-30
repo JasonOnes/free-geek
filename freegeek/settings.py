@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'django_extensions',
     'rest_framework',
     'freegeek',
@@ -165,3 +166,5 @@ GRAPH_MODELS = {
   'all_applications': True,
   'group_models': True,
 }
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
